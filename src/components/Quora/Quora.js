@@ -4,6 +4,7 @@ import QHeader from "../header/QHeader";
 import "./Quora.css";
 import Sidebar from "../sidebar/Sidebar";
 import Feed from "../Feed/Feed";
+import Widget from "../Widget/Widget";
 // import Widget from "./Widget.js";
 
 function Quora() {
@@ -13,7 +14,7 @@ function Quora() {
       <div className="quora__content">
         <Sidebar />
         <Feed />
-        
+        <Widget />
       </div>
     </div>
   );
