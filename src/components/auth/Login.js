@@ -7,10 +7,18 @@ function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   
-  const signIn = () => {
-    signInWithPopup(auth,provider).catch((e) => {
-      alert(e.message);
-    });
+  const signIn = async () => {
+    // signInWithPopup(auth,provider).catch((e) => {
+    //   alert(e.message);
+    // });
+    try {
+      const result=await signInWithPopup(auth,provider);
+      const user=result.user;
+      console.log(user);      
+    } catch (error) {
+      console.error(error);
+      alert(error.message);
+    }
   };
 
   const handleSignIn = (e) => {
@@ -49,7 +57,7 @@ function Login() {
         <p style={{ color: "royalblue", fontSize: "25px" }}>
           HandCrafted with ❤️ by{" "}
         </p>
-        <h3>Code With Akky</h3>
+        <h3>Code With manish</h3>
       </div>
       <div className="login__auth">
         <div className="login__authOptions">
