@@ -15,7 +15,7 @@ import db,{ auth } from '../../firebase';
 import Modal from "react-modal";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import LinkIcon from '@mui/icons-material/Link';
-import { FirebaseError } from 'firebase/app';
+import { collection,serverTimestamp, addDoc } from 'firebase/firestore';
 
 function QHeader() {
   const user=useSelector(selectUser);
@@ -25,11 +25,23 @@ function QHeader() {
   const [inputUrl, setInputUrl] = useState("");
   const questionName = input;
 
-  const handleQuestion = (e) => {
+  const handleQuestion = async (e) => {
     e.preventDefault();
     setIsModalOpen(false);
 
-    
+    if (questionName) {
+      try {
+        const docRef= await addDoc(collection(db,"questions"),{
+        user: user,
+        question: input,
+        imageUrl: inputUrl,
+        timestamp: serverTimestamp(),
+        });
+        console.log(docRef.id);
+      } catch (error) {
+        console.error(error);
+      }
+    }
 
     setInput("");
     setInputUrl("");
@@ -108,7 +120,7 @@ function QHeader() {
                   : "https://images-platform.99static.com//_QXV_u2KU7-ihGjWZVHQb5d-yVM=/238x1326:821x1909/fit-in/500x500/99designs-contests-attachments/119/119362/attachment_119362573"
               }
             />
-            <p>{user.disPlayName ? user.disPlayName : user.email} asked</p>
+            <p>{user.displayName ? user.displayName : user.email} asked</p>
             <div className="modal__scope">
               <PeopleAltOutlinedIcon />
               <p>Public</p>
