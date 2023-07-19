@@ -7,7 +7,7 @@ function SidebarOption() {
     <div className="sidebarOptions">
       <div className="sidebarOption">
         <img
-          src=""
+          src="https://plus.unsplash.com/premium_photo-1661920294279-9c3b2a430e5c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8aGlzdG9yeXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
           alt=""
         />
         <p>History</p>
