@@ -7,7 +7,7 @@ function SidebarOption() {
     <div className="sidebarOptions">
       <div className="sidebarOption">
         <img
-          src="https://qphs.fs.quoracdn.net/main-thumb-t-930-100-cbbsbwijdhpyzlpipejvqpiijhhoaday.jpeg"
+          src=""
           alt=""
         />
         <p>History</p>
@@ -15,7 +15,7 @@ function SidebarOption() {
 
       <div className="sidebarOption">
         <img
-          src="https://qph.cf2.quoracdn.net/main-thumb-t-2248-100-opFZMCZKBFoTLdRD2XJi9elSvYTpDi0C.jpeg"
+          src="https://images.unsplash.com/photo-1665686308827-eb62e4f6604d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8YnVzaW5lc3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
           alt=""
         />
 
@@ -23,7 +23,7 @@ function SidebarOption() {
       </div>
       <div className="sidebarOption">
         <img
-          src="https://qphs.fs.quoracdn.net/main-thumb-t-1913-100-B8JrwaVauFzsaTSqXDqoWLCXzQb2mTE9.jpeg"
+          src="https://media.istockphoto.com/id/1250684365/photo/mental-health-during-lockdown.webp?b=1&s=170667a&w=0&k=20&c=jRAG4c-yalm6MZR0Mo6wbo3UlL4Bd4bmPAF3vTFwsjE="
           alt=""
         />
         <p>Psychology</p>
@@ -31,7 +31,7 @@ function SidebarOption() {
 
       <div className="sidebarOption">
         <img
-          src="https://qphs.fs.quoracdn.net/main-thumb-t-877-100-e7jKHEQr0HExAIA9rlsyHlV6HJyRruEo.jpeg"
+          src="https://media.istockphoto.com/id/1422610210/photo/grilled-lamb-rib-chops.webp?b=1&s=170667a&w=0&k=20&c=8TUa7V8sIGlpMIFqkRBmBRE5u238QeBpa_yWtQmFWTc="
           alt=""
         />
         <p>Cooking</p>
@@ -39,7 +39,7 @@ function SidebarOption() {
 
       <div className="sidebarOption">
         <img
-          src="https://qphs.fs.quoracdn.net/main-thumb-t-801-100-Sf8h894FXbQZQit0TeqDrrqS6xw6dwCQ.jpeg"
+          src="https://media.istockphoto.com/id/1007705012/photo/athlete-listening-music-on-headphones.webp?b=1&s=170667a&w=0&k=20&c=cZBrE24INe8IFRzR16OVFAx1ifezeNhX4IUG_s1NF_Y="
           alt=""
         />
         <p>Music</p>
@@ -47,7 +47,7 @@ function SidebarOption() {
 
       <div className="sidebarOption">
         <img
-          src="https://qphs.fs.quoracdn.net/main-thumb-t-931-100-c8WCPwZ9qPsh5zLGQ5wHh1ddxtc9Cch7.jpeg"
+          src="https://media.istockphoto.com/id/1127076087/photo/black-female-engineer-working-on-industrial-machine-in-a-laboratory.webp?b=1&s=170667a&w=0&k=20&c=PJ6R-QijDvCaWqNvmGPJ9LNU1dcW8onc9OQcmASX9CM="
           alt=""
         />
         <p>Science</p>
@@ -55,7 +55,7 @@ function SidebarOption() {
 
       <div className="sidebarOption">
         <img
-          src="https://qphs.fs.quoracdn.net/main-thumb-t-1140-100-24q3tiv4WhPssc5TGwf0mvCM5aiqGVXW.jpeg"
+          src="https://images.unsplash.com/photo-1535914254981-b5012eebbd15?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGhlYWx0aHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
           alt=""
         />
         <p>Health</p>
@@ -63,7 +63,7 @@ function SidebarOption() {
 
       <div className="sidebarOption">
         <img
-          src="https://qphs.fs.quoracdn.net/main-thumb-t-843-100-W7FzODceTO2aQmp8D7E4rKZ8YgSv21eR.jpeg"
+          src="https://images.unsplash.com/photo-1594909122845-11baa439b7bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bW92aWVzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
           alt=""
         />
         <p>Movies</p>
@@ -71,7 +71,7 @@ function SidebarOption() {
 
       <div className="sidebarOption">
         <img
-          src="https://qphs.fs.quoracdn.net/main-thumb-t-2177-100-JiR07D1TQSfeQzRvWXomVaY4Poj2f8Yb.jpeg"
+          src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dGVjaG5vbG9neXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
           alt=""
         />
         <p>Technology</p>
@@ -79,7 +79,7 @@ function SidebarOption() {
 
       <div className="sidebarOption">
         <img
-          src="https://qphs.fs.quoracdn.net/main-thumb-t-996-100-bfZBQjeEenKKl8fcNY4tVv0FyArtB0Mb.jpeg"
+          src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZWR1Y2F0aW9ufGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
           alt=""
         />
         <p>Education</p>
